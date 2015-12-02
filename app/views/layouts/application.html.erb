@@ -27,8 +27,11 @@
         <ul class="right">
           <% if user_signed_in? %>
             <li class="has-dropdown">
-              <a href="" class="item"><%= image_tag current_user.avatar, hwidth: "20", heigth: "20" %></a>
-              <a href="#"><%= current_user.username %></a>
+              <a href="#">
+                <%= image_tag current_user.avatar.url(:thumbs), width: "20", height: "20", :id => "nav_avatar" %>
+                <%= puts "  " %>
+                <%= current_user.username %>
+              </a>
               <ul class="dropdown">
                 <li><%= link_to 'Edit profile', edit_user_registration_path %></li>
                 <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>

@@ -23,3 +23,7 @@ body {
 	background: linear-gradient(to bottom, #2d9de2 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d9de2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
+
+#nav_avatar {
+	border-radius: 50%;
+}
