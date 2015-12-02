@@ -48,3 +48,4 @@ end
 gem 'devise'
 gem 'foundation-rails'
 gem 'rails_12factor'
+gem 'paperclip'

@@ -1,5 +1,7 @@
 <% @jobs.each do |job| %>
 <ul>
   <li><%= link_to job.name, job_path(job.id) %></li>
+
+  <%= image_tag current_user.avatar %>
 </ul>
 <% end %>
