@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: Joung-2_production
-  username: Joung-2
-  password: <%= ENV['JOUNG-2_DATABASE_PASSWORD'] %>
+  username: pmurcia
+  password: 
